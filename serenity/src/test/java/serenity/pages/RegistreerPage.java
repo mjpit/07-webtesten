@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-@DefaultUrl("localhost:8080/registreer.html")
+@DefaultUrl("http://localhost:8080/registreer.html")
 public class RegistreerPage extends PageObject {
 	
 	@FindBy(name = "registratieGebruikersnaam")
